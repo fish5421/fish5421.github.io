@@ -1,13 +1,8 @@
-Thank you for your email!
+<html>
+<body>
 
-';
-{ 
-else { 
-echo '
+Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>
 
-Oops! An error occurred. Try sending your message again.
-
-'; 
-}
-}
-?>
+</body>
+</html>
