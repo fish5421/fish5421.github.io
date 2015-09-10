@@ -1,7 +1,8 @@
 Thank you for your email!
 
 ';
-} else { 
+{ 
+else { 
 echo '
 
 Oops! An error occurred. Try sending your message again.
