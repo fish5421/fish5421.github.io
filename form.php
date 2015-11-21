@@ -1,7 +1,7 @@
 <?php
 define('DB_NAME', 'fcc_form');
 define('DB_USER', 'root');
-define('DB_PASSWORD', 'Ginger422737');
+define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 
 $link = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
