@@ -1,4 +1,4 @@
-<?php
+<!-- 
 // define('DB_NAME', 'fcc_form');
 // define('DB_USER', 'root');
 // define('DB_PASSWORD', 'Ginger422737');
@@ -27,11 +27,12 @@
 // 	die('Error: ' . mysql_error());
 // }
 
-// mysql_close();
+// mysql_close(); -->
 
+<?php
 $servername = "localhost";
 $username = "root";
-$password = "Ginger422737";
+$password = " ";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
