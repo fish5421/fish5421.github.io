@@ -29,17 +29,18 @@
 
 // mysql_close(); -->
 
-<?php
-$servername = "localhost";
-$username = "root";
-$password = " ";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-echo "Connected successfully";
-?>
+   <?
+       
+        $connect=mysql_connect("localhost","root","Ginger422737") or die("Unable to Connect");
+       
+        mysql_select_db("fcc_form") or die("Could not open the db");
+       
+        $showtablequery="SHOW TABLES FROM fcc_form";
+       
+        $query_result=mysql_query($showtablequery);
+       
+        while($showtablerow = mysql_fetch_array($query_result))
+        {
+        echo $showtablerow[0]." ";
+        } 
+   ?>
