@@ -31,7 +31,7 @@
 
    <?
        
-        $connect=mysql_connect("localhost","root","Ginger422737") or die("Unable to Connect");
+        $onnect=mysql_connect("localhost","root","Ginger422737") or die("Unable to Connect");
        
         mysql_select_db("fcc_form") or die("Could not open the db");
        
