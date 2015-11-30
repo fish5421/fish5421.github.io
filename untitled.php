@@ -1,3 +1,6 @@
+<html>
+<body>
+
 <?php
 
 $servername = "192.168.1.142:8889";
@@ -23,3 +26,6 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+
+</body>
+</html>
